@@ -3,6 +3,7 @@
 ## Notes: Shows your time to level, XP per hour, rested XP and kills to level right on Blizzard's own XP bar.
 ## Author: Astreae
 ## Version: @project-version@
+## X-Curse-Project-ID: 1793194
 ## IconTexture: Interface\AddOns\XPHourglass\media\Icon
 ## X-License: All Rights Reserved
 ## Category: Leveling
