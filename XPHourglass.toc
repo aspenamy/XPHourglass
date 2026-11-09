@@ -1,6 +1,6 @@
 ## Interface: 16001
 ## Title: Hourglass
-## Notes: Time to level, XP per hour, rested XP, kills to level and quest XP, written onto Blizzard's own XP bar.
+## Notes: Shows your time to level, XP per hour, rested XP and kills to level right on Blizzard's own XP bar.
 ## Author: Astreae
 ## Version: @project-version@
 ## IconTexture: Interface\AddOns\XPHourglass\media\Icon

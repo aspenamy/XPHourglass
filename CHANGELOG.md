@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.0
+## 1.0.0
 
-First build for World of Warcraft: Forever.
+First release, for World of Warcraft: Forever.
 
 - Percent, rested XP, XP per hour, time to level and kills to level written onto Blizzard's XP bar.
 - Quest XP waiting to be turned in is shaded gold on the bar, in any color you pick.

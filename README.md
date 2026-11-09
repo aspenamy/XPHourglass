@@ -1,8 +1,8 @@
 # Hourglass
 
-A lightweight leveling addon for World of Warcraft: Forever. It writes your
-time to level, XP per hour and rested XP onto Blizzard's own XP bar, and
-puts the rest in the bar's tooltip. There's no extra window to place and
+Hourglass is a lightweight leveling addon for World of Warcraft: Forever
+that writes your time to level, XP per hour and rested XP onto Blizzard's
+own XP bar, and puts the rest in the bar's tooltip. There's no extra window to place and
 nothing replaces or hides the default bar, so it keeps its look, its Edit
 Mode position and the reputation bar next to it.
 
@@ -33,14 +33,15 @@ can see how far a trip back to town will take you.
   session, in the settings).
 - **The clock stops while you're AFK**, so a break doesn't pull your pace
   down. Time on the level stops too. You can turn this off.
-- **No wild numbers right after logging in.** For the first 3 minutes the
+- **Steady numbers right after logging in.** For the first 3 minutes the
   rate counts as at least 3 minutes of play, so one quest turn-in doesn't
-  show as a million XP an hour.
+  show up as a huge number.
 - **Kills to level counts rested XP.** While you're rested, kills are worth
   double until the rested XP runs out, and the estimate allows for that.
 - **A /reload doesn't lose your session.** Neither does logging back in
   within 10 minutes.
-- **Level times are per character** and only count time you were logged in.
+- **Level times are per character** and only count time you were logged in
+  and not AFK.
   If you install Hourglass partway through a level, that level's time is
   shown with a `+`, since the time before it was installed isn't known.
 - **A chat line on level up** says how long the level took.
@@ -58,8 +59,8 @@ Options > AddOns > Hourglass, or `/xph config`.
   fonts shared by other addons through LibSharedMedia, if you have any.
 - **Quest shading color.** A color picker, with an opacity slider for how
   much of the bar shows through, and a reset back to gold.
-- **The rest.** Quest shading on or off, the tooltip lines, how much recent play XP per
-  hour is worked out from, the AFK pause and the level-up line.
+- **The rest.** Quest shading on or off, the tooltip lines, how much recent
+  play XP per hour is worked out from, the AFK pause and the level-up line.
 
 The text stays on Blizzard's XP bar, so to move the whole thing, move the
 bar in Edit Mode and the text goes with it.
