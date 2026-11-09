@@ -11,4 +11,4 @@ First build for World of Warcraft: Forever.
 - A chat line on level up with how long the level took.
 - Put each stat on the left end of the bar, the center or the right end, or hide it.
 - Set the text's font, size and outline, how far in from the ends it sits, and nudge it up or down.
-- Settings page under Options > AddOns > XP Hourglass, and `/xph` commands.
+- Settings page under Options > AddOns > Hourglass, and `/xph` commands.

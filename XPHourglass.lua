@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
--- XP Hourglass
+-- Hourglass
 --
 -- Lightweight leveling stats written onto Blizzard's own XP bar for World of
 -- Warcraft: Forever. Nothing is replaced or hidden: the bar keeps its look,
@@ -20,7 +20,7 @@
 
 local ADDON_NAME, ns = ...
 
-ns.TITLE = "XP Hourglass"
+ns.TITLE = "Hourglass"
 
 -- The stats that can go on the bar, in the order they're drawn within each
 -- end. Each one's place is "left", "right" or "off".
@@ -64,7 +64,7 @@ local quests = { xp = 0, count = 0 }
 
 function ns.Print(msg, ...)
   if select("#", ...) > 0 then msg = msg:format(...) end
-  print("|cffe6c35cXP Hourglass|r: " .. msg)
+  print("|cffe6c35cHourglass|r: " .. msg)
 end
 
 function ns.Settings() return db end
@@ -227,7 +227,7 @@ local function LevelUp(oldLevel, newLevel)
   if db.levelUpChat then
     local line = ("Reached level %d. Level %d took %s"):format(newLevel, oldLevel, ns.Duration(took))
     if partial then
-      line = line .. ", counted from when XP Hourglass started tracking it"
+      line = line .. ", counted from when Hourglass started tracking it"
     end
     local rate = ns.Rate()
     if rate > 0 then

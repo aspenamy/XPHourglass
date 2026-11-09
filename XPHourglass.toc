@@ -1,5 +1,5 @@
 ## Interface: 16001
-## Title: XP Hourglass
+## Title: Hourglass
 ## Notes: Time to level, XP per hour, rested XP, kills to level and quest XP, written onto Blizzard's own XP bar.
 ## Author: Astreae
 ## Version: @project-version@

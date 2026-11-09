@@ -1,4 +1,4 @@
-# XP Hourglass
+# Hourglass
 
 A lightweight leveling addon for World of Warcraft: Forever. It writes your
 time to level, XP per hour and rested XP onto Blizzard's own XP bar, and
@@ -41,13 +41,13 @@ can see how far a trip back to town will take you.
 - **A /reload doesn't lose your session.** Neither does logging back in
   within 10 minutes.
 - **Level times are per character** and only count time you were logged in.
-  If you install XP Hourglass partway through a level, that level's time is
+  If you install Hourglass partway through a level, that level's time is
   shown with a `+`, since the time before it was installed isn't known.
 - **A chat line on level up** says how long the level took.
 
 ## Settings
 
-Options > AddOns > XP Hourglass, or `/xph config`.
+Options > AddOns > Hourglass, or `/xph config`.
 
 - **Where each stat goes.** Percent, rested XP, XP per hour, time to level
   and kills to level can each go on the left end of the bar, the center, the
@@ -74,4 +74,4 @@ bar in Edit Mode and the text goes with it.
 ## Works with
 
 Blizzard's XP bar, wherever Edit Mode puts it. If another addon replaces the
-XP bar, XP Hourglass says so in chat once and `/xph` still shows your stats.
+XP bar, Hourglass says so in chat once and `/xph` still shows your stats.

@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
--- Settings page: Options > AddOns > XP Hourglass
+-- Settings page: Options > AddOns > Hourglass
 -------------------------------------------------------------------------------
 
 local ADDON_NAME, ns = ...
